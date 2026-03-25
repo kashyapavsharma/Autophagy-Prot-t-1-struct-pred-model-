@@ -1,0 +1,170 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "32f21b99",
+   "metadata": {
+    "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
+    "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
+    "execution": {
+     "iopub.execute_input": "2026-03-25T07:11:29.476106Z",
+     "iopub.status.busy": "2026-03-25T07:11:29.475820Z",
+     "iopub.status.idle": "2026-03-25T07:11:41.022705Z",
+     "shell.execute_reply": "2026-03-25T07:11:41.021703Z"
+    },
+    "papermill": {
+     "duration": 11.551459,
+     "end_time": "2026-03-25T07:11:41.024267+00:00",
+     "exception": false,
+     "start_time": "2026-03-25T07:11:29.472808+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Collecting biopython\r\n",
+      "  Downloading biopython-1.86-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (13 kB)\r\n",
+      "Requirement already satisfied: numpy in /usr/local/lib/python3.12/dist-packages (from biopython) (2.0.2)\r\n",
+      "Downloading biopython-1.86-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (3.2 MB)\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.2/3.2 MB\u001b[0m \u001b[31m43.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[?25hInstalling collected packages: biopython\r\n",
+      "Successfully installed biopython-1.86\r\n",
+      "Working with 16 PIK3C3 structures\n"
+     ]
+    }
+   ],
+   "source": [
+    "import numpy as np\n",
+    "import pandas as pd\n",
+    "import matplotlib.pyplot as plt\n",
+    "import seaborn as sns\n",
+    "import requests\n",
+    "import warnings\n",
+    "\n",
+    "\n",
+    "# Install BioPython if not available\n",
+    "!pip install biopython\n",
+    "\n",
+    "from Bio.PDB import PDBParser\n",
+    "from Bio.PDB.PDBExceptions import PDBConstructionWarning\n",
+    "import warnings\n",
+    "\n",
+    "\n",
+    "# Our PIK3C3 PDB IDs\n",
+    "pdb_ids = ['3LS8', '3IHY', '4PH4', '6YKG', '6I3U', '9DKP', '5ENN', '7RSP', \n",
+    "           '9NIN', '11MM', '11YC', '4OYS', '7RSJ', '7RSV', '9E4V', '8RXR']\n",
+    "\n",
+    "print(f\"Working with {len(pdb_ids)} PIK3C3 structures\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "ffe26c10",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-25T07:11:41.028249Z",
+     "iopub.status.busy": "2026-03-25T07:11:41.027737Z",
+     "iopub.status.idle": "2026-03-25T07:11:41.813030Z",
+     "shell.execute_reply": "2026-03-25T07:11:41.812243Z"
+    },
+    "papermill": {
+     "duration": 0.788964,
+     "end_time": "2026-03-25T07:11:41.814647+00:00",
+     "exception": false,
+     "start_time": "2026-03-25T07:11:41.025683+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "✓ Download successful!\n",
+      "First 10 lines preview:\n",
+      "HEADER    TRANSFERASE                             12-FEB-10   3LS8              \n",
+      "TITLE     CRYSTAL STRUCTURE OF HUMAN PIK3C3 IN COMPLEX WITH 3-[4-(4-            \n",
+      "TITLE    2 MORPHOLINYL)THIENO[3,2-D]PYRIMIDIN-2-YL]-PHENOL                      \n",
+      "COMPND    MOL_ID: 1;                                                            \n",
+      "COMPND   2 MOLECULE: PHOSPHATIDYLINOSITOL 3-KINASE CATALYTIC SUBUNIT TYPE 3;    \n",
+      "COMPND   3 CHAIN: A, B;                                                         \n",
+      "COMPND   4 FRAGMENT: UNP RESIDUES 268-879;                                      \n",
+      "COMPND   5 SYNONYM: PTDINS-3-KINASE TYPE 3, PI3-KINASE TYPE 3, PI3K TYPE 3,     \n",
+      "COMPND   6 PHOSPHOINOSITIDE-3-KINASE CLASS 3, PHOSPHATIDYLINOSITOL 3-KINASE P100\n",
+      "COMPND   7 SUBUNIT;                                                             \n"
+     ]
+    }
+   ],
+   "source": [
+    "def download_pdb(pdb_id):\n",
+    "    \"\"\"Download PDB file from RCSB\"\"\"\n",
+    "    url = f\"https://files.rcsb.org/download/{pdb_id}.pdb\"\n",
+    "    try:\n",
+    "        response = requests.get(url)\n",
+    "        response.raise_for_status()\n",
+    "        return response.text\n",
+    "    except Exception as e:\n",
+    "        print(f\"Failed to download {pdb_id}: {e}\")\n",
+    "        return None\n",
+    "\n",
+    "# Test download with first PDB\n",
+    "test_pdb = download_pdb('3LS8')\n",
+    "if test_pdb:\n",
+    "    print(\"✓ Download successful!\")\n",
+    "    print(f\"First 10 lines preview:\")\n",
+    "    print('\\n'.join(test_pdb.split('\\n')[:10]))\n",
+    "else:\n",
+    "    print(\"✗ Download failed\")"
+   ]
+  }
+ ],
+ "metadata": {
+  "kaggle": {
+   "accelerator": "none",
+   "dataSources": [],
+   "dockerImageVersionId": 31328,
+   "isGpuEnabled": false,
+   "isInternetEnabled": true,
+   "language": "python",
+   "sourceType": "notebook"
+  },
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.12"
+  },
+  "papermill": {
+   "default_parameters": {},
+   "duration": 16.999466,
+   "end_time": "2026-03-25T07:11:42.435493+00:00",
+   "environment_variables": {},
+   "exception": null,
+   "input_path": "__notebook__.ipynb",
+   "output_path": "__notebook__.ipynb",
+   "parameters": {},
+   "start_time": "2026-03-25T07:11:25.436027+00:00",
+   "version": "2.7.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
