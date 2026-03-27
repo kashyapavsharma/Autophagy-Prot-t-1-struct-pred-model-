@@ -3,21 +3,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "0738e39e",
+   "id": "33975cba",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2026-03-25T07:22:26.441295Z",
-     "iopub.status.busy": "2026-03-25T07:22:26.440992Z",
-     "iopub.status.idle": "2026-03-25T07:22:35.942213Z",
-     "shell.execute_reply": "2026-03-25T07:22:35.941249Z"
+     "iopub.execute_input": "2026-03-27T04:45:07.340881Z",
+     "iopub.status.busy": "2026-03-27T04:45:07.340433Z",
+     "iopub.status.idle": "2026-03-27T04:45:18.196784Z",
+     "shell.execute_reply": "2026-03-27T04:45:18.195194Z"
     },
     "papermill": {
-     "duration": 9.507367,
-     "end_time": "2026-03-25T07:22:35.944276+00:00",
+     "duration": 10.871074,
+     "end_time": "2026-03-27T04:45:18.199236+00:00",
      "exception": false,
-     "start_time": "2026-03-25T07:22:26.436909+00:00",
+     "start_time": "2026-03-27T04:45:07.328162+00:00",
      "status": "completed"
     },
     "tags": []
@@ -31,7 +31,7 @@
       "  Downloading biopython-1.86-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (13 kB)\r\n",
       "Requirement already satisfied: numpy in /usr/local/lib/python3.12/dist-packages (from biopython) (2.0.2)\r\n",
       "Downloading biopython-1.86-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (3.2 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.2/3.2 MB\u001b[0m \u001b[31m62.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.2/3.2 MB\u001b[0m \u001b[31m43.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: biopython\r\n",
       "Successfully installed biopython-1.86\r\n",
       "Working with 16 PIK3C3 structures\n"
@@ -65,19 +65,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "da43943b",
+   "id": "6120adda",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-25T07:22:35.951175Z",
-     "iopub.status.busy": "2026-03-25T07:22:35.950387Z",
-     "iopub.status.idle": "2026-03-25T07:22:36.001792Z",
-     "shell.execute_reply": "2026-03-25T07:22:36.000839Z"
+     "iopub.execute_input": "2026-03-27T04:45:18.210826Z",
+     "iopub.status.busy": "2026-03-27T04:45:18.209268Z",
+     "iopub.status.idle": "2026-03-27T04:45:18.680270Z",
+     "shell.execute_reply": "2026-03-27T04:45:18.678718Z"
     },
     "papermill": {
-     "duration": 0.057013,
-     "end_time": "2026-03-25T07:22:36.003789+00:00",
+     "duration": 0.479228,
+     "end_time": "2026-03-27T04:45:18.682696+00:00",
      "exception": false,
-     "start_time": "2026-03-25T07:22:35.946776+00:00",
+     "start_time": "2026-03-27T04:45:18.203468+00:00",
      "status": "completed"
     },
     "tags": []
@@ -127,19 +127,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "c718e37e",
+   "id": "27cc5974",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-25T07:22:36.010116Z",
-     "iopub.status.busy": "2026-03-25T07:22:36.009386Z",
-     "iopub.status.idle": "2026-03-25T07:22:36.427272Z",
-     "shell.execute_reply": "2026-03-25T07:22:36.426297Z"
+     "iopub.execute_input": "2026-03-27T04:45:18.692507Z",
+     "iopub.status.busy": "2026-03-27T04:45:18.692118Z",
+     "iopub.status.idle": "2026-03-27T04:45:19.153152Z",
+     "shell.execute_reply": "2026-03-27T04:45:19.151631Z"
     },
     "papermill": {
-     "duration": 0.422892,
-     "end_time": "2026-03-25T07:22:36.428953+00:00",
+     "duration": 0.469668,
+     "end_time": "2026-03-27T04:45:19.156406+00:00",
      "exception": false,
-     "start_time": "2026-03-25T07:22:36.006061+00:00",
+     "start_time": "2026-03-27T04:45:18.686738+00:00",
      "status": "completed"
     },
     "tags": []
@@ -221,19 +221,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "011d50bb",
+   "id": "1cab7ba4",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-25T07:22:36.435715Z",
-     "iopub.status.busy": "2026-03-25T07:22:36.434837Z",
-     "iopub.status.idle": "2026-03-25T07:22:38.081311Z",
-     "shell.execute_reply": "2026-03-25T07:22:38.080438Z"
+     "iopub.execute_input": "2026-03-27T04:45:19.167693Z",
+     "iopub.status.busy": "2026-03-27T04:45:19.167166Z",
+     "iopub.status.idle": "2026-03-27T04:45:20.969311Z",
+     "shell.execute_reply": "2026-03-27T04:45:20.968048Z"
     },
     "papermill": {
-     "duration": 1.6577,
-     "end_time": "2026-03-25T07:22:38.089033+00:00",
+     "duration": 1.817658,
+     "end_time": "2026-03-27T04:45:20.978586+00:00",
      "exception": false,
-     "start_time": "2026-03-25T07:22:36.431333+00:00",
+     "start_time": "2026-03-27T04:45:19.160928+00:00",
      "status": "completed"
     },
     "tags": []
@@ -300,19 +300,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "e0355638",
+   "id": "17381a45",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-25T07:22:38.105475Z",
-     "iopub.status.busy": "2026-03-25T07:22:38.104850Z",
-     "iopub.status.idle": "2026-03-25T07:22:38.110887Z",
-     "shell.execute_reply": "2026-03-25T07:22:38.110028Z"
+     "iopub.execute_input": "2026-03-27T04:45:20.999355Z",
+     "iopub.status.busy": "2026-03-27T04:45:20.999038Z",
+     "iopub.status.idle": "2026-03-27T04:45:21.006611Z",
+     "shell.execute_reply": "2026-03-27T04:45:21.005120Z"
     },
     "papermill": {
-     "duration": 0.01605,
-     "end_time": "2026-03-25T07:22:38.112393+00:00",
+     "duration": 0.021516,
+     "end_time": "2026-03-27T04:45:21.009778+00:00",
      "exception": false,
-     "start_time": "2026-03-25T07:22:38.096343+00:00",
+     "start_time": "2026-03-27T04:45:20.988262+00:00",
      "status": "completed"
     },
     "tags": []
@@ -341,19 +341,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "6c5606e7",
+   "id": "8be08189",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-25T07:22:38.127444Z",
-     "iopub.status.busy": "2026-03-25T07:22:38.127144Z",
-     "iopub.status.idle": "2026-03-25T07:22:57.563506Z",
-     "shell.execute_reply": "2026-03-25T07:22:57.562558Z"
+     "iopub.execute_input": "2026-03-27T04:45:21.031799Z",
+     "iopub.status.busy": "2026-03-27T04:45:21.030876Z",
+     "iopub.status.idle": "2026-03-27T04:45:40.644869Z",
+     "shell.execute_reply": "2026-03-27T04:45:40.643924Z"
     },
     "papermill": {
-     "duration": 19.446256,
-     "end_time": "2026-03-25T07:22:57.565462+00:00",
+     "duration": 19.627994,
+     "end_time": "2026-03-27T04:45:40.647372+00:00",
      "exception": false,
-     "start_time": "2026-03-25T07:22:38.119206+00:00",
+     "start_time": "2026-03-27T04:45:21.019378+00:00",
      "status": "completed"
     },
     "tags": []
@@ -543,19 +543,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "515474f3",
+   "id": "47d69fe2",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2026-03-25T07:22:57.581979Z",
-     "iopub.status.busy": "2026-03-25T07:22:57.581637Z",
-     "iopub.status.idle": "2026-03-25T07:22:57.862276Z",
-     "shell.execute_reply": "2026-03-25T07:22:57.861404Z"
+     "iopub.execute_input": "2026-03-27T04:45:40.670518Z",
+     "iopub.status.busy": "2026-03-27T04:45:40.670032Z",
+     "iopub.status.idle": "2026-03-27T04:45:40.983117Z",
+     "shell.execute_reply": "2026-03-27T04:45:40.982031Z"
     },
     "papermill": {
-     "duration": 0.291246,
-     "end_time": "2026-03-25T07:22:57.864292+00:00",
+     "duration": 0.32738,
+     "end_time": "2026-03-27T04:45:40.985382+00:00",
      "exception": false,
-     "start_time": "2026-03-25T07:22:57.573046+00:00",
+     "start_time": "2026-03-27T04:45:40.658002+00:00",
      "status": "completed"
     },
     "tags": []
@@ -610,6 +610,686 @@
     "    plt.tight_layout()\n",
     "    plt.show()"
    ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "e5b3951f",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-27T04:45:41.009549Z",
+     "iopub.status.busy": "2026-03-27T04:45:41.009205Z",
+     "iopub.status.idle": "2026-03-27T04:45:41.018732Z",
+     "shell.execute_reply": "2026-03-27T04:45:41.016800Z"
+    },
+    "papermill": {
+     "duration": 0.02488,
+     "end_time": "2026-03-27T04:45:41.021041+00:00",
+     "exception": false,
+     "start_time": "2026-03-27T04:45:40.996161+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Successfully processed structures:\n",
+      "3LS8: 547 residues\n",
+      "3IHY: 536 residues\n",
+      "6I3U: 557 residues\n",
+      "5ENN: 526 residues\n",
+      "7RSP: 528 residues\n",
+      "4OYS: 553 residues\n",
+      "7RSJ: 545 residues\n",
+      "7RSV: 529 residues\n",
+      "\n",
+      "Length statistics:\n",
+      "Range: 526 - 557 residues\n",
+      "Standard deviation: 11.2\n",
+      "✓ Good length consistency for training!\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Show which structures we successfully processed\n",
+    "print(\"Successfully processed structures:\")\n",
+    "for pdb_id, data in all_structures.items():\n",
+    "    print(f\"{pdb_id}: {data['n_residues']} residues\")\n",
+    "\n",
+    "# Check length consistency for model training\n",
+    "lengths = [data['n_residues'] for data in all_structures.values()]\n",
+    "print(f\"\\nLength statistics:\")\n",
+    "print(f\"Range: {min(lengths)} - {max(lengths)} residues\")\n",
+    "print(f\"Standard deviation: {np.std(lengths):.1f}\")\n",
+    "\n",
+    "# Check if we have reasonable length consistency\n",
+    "if max(lengths) - min(lengths) < 50:\n",
+    "    print(\"✓ Good length consistency for training!\")\n",
+    "else:\n",
+    "    print(\"⚠️  Large length variation - we'll need padding/masking\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "fa68ea62",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-27T04:45:41.046129Z",
+     "iopub.status.busy": "2026-03-27T04:45:41.045734Z",
+     "iopub.status.idle": "2026-03-27T04:45:41.076201Z",
+     "shell.execute_reply": "2026-03-27T04:45:41.075115Z"
+    },
+    "papermill": {
+     "duration": 0.04576,
+     "end_time": "2026-03-27T04:45:41.078185+00:00",
+     "exception": false,
+     "start_time": "2026-03-27T04:45:41.032425+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Training data prepared:\n",
+      "Coordinates shape: (8, 557, 4, 3)\n",
+      "Distance matrices shape: (8, 557, 557)\n",
+      "Max sequence length: 557\n"
+     ]
+    }
+   ],
+   "source": [
+    "def prepare_training_data(all_structures):\n",
+    "    \"\"\"Prepare data for VAE-WGAN training\"\"\"\n",
+    "    \n",
+    "    # Find max length for padding\n",
+    "    max_length = max(data['n_residues'] for data in all_structures.values())\n",
+    "    \n",
+    "    coords_list = []\n",
+    "    distance_matrices = []\n",
+    "    \n",
+    "    for pdb_id, data in all_structures.items():\n",
+    "        n_res = data['n_residues']\n",
+    "        \n",
+    "        # Reshape coordinates to [n_residues, 4, 3] (4 backbone atoms per residue)\n",
+    "        coords = data['coords'].reshape(n_res, 4, 3)\n",
+    "        \n",
+    "        # Pad to max length if needed\n",
+    "        if n_res < max_length:\n",
+    "            padding = np.zeros((max_length - n_res, 4, 3))\n",
+    "            coords_padded = np.vstack([coords, padding])\n",
+    "        else:\n",
+    "            coords_padded = coords\n",
+    "            \n",
+    "        # Pad distance matrix\n",
+    "        dist_matrix = data['distance_matrix']\n",
+    "        if n_res < max_length:\n",
+    "            padded_dist = np.zeros((max_length, max_length))\n",
+    "            padded_dist[:n_res, :n_res] = dist_matrix\n",
+    "        else:\n",
+    "            padded_dist = dist_matrix\n",
+    "            \n",
+    "        coords_list.append(coords_padded)\n",
+    "        distance_matrices.append(padded_dist)\n",
+    "    \n",
+    "    return np.array(coords_list), np.array(distance_matrices), max_length\n",
+    "\n",
+    "# Prepare training data\n",
+    "coords_array, dist_array, max_len = prepare_training_data(all_structures)\n",
+    "print(f\"Training data prepared:\")\n",
+    "print(f\"Coordinates shape: {coords_array.shape}\")  # [n_structures, max_residues, 4, 3]\n",
+    "print(f\"Distance matrices shape: {dist_array.shape}\")  # [n_structures, max_residues, max_residues]\n",
+    "print(f\"Max sequence length: {max_len}\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "20c63dd5",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-27T04:45:41.102754Z",
+     "iopub.status.busy": "2026-03-27T04:45:41.102027Z",
+     "iopub.status.idle": "2026-03-27T04:45:44.970574Z",
+     "shell.execute_reply": "2026-03-27T04:45:44.969164Z"
+    },
+    "papermill": {
+     "duration": 3.883937,
+     "end_time": "2026-03-27T04:45:44.973151+00:00",
+     "exception": false,
+     "start_time": "2026-03-27T04:45:41.089214+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Using device: cpu\n",
+      "Coordinates tensor: torch.Size([8, 557, 4, 3])\n",
+      "Distance tensor: torch.Size([8, 557, 557])\n",
+      "✓ Data normalized and ready for training\n"
+     ]
+    }
+   ],
+   "source": [
+    "import torch\n",
+    "import torch.nn as nn\n",
+    "import torch.nn.functional as F\n",
+    "from torch.utils.data import Dataset, DataLoader\n",
+    "\n",
+    "# Check device\n",
+    "device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')\n",
+    "print(f\"Using device: {device}\")\n",
+    "\n",
+    "# Convert our data to PyTorch tensors\n",
+    "coords_tensor = torch.FloatTensor(coords_array).to(device)\n",
+    "dist_tensor = torch.FloatTensor(dist_array).to(device)\n",
+    "\n",
+    "print(f\"Coordinates tensor: {coords_tensor.shape}\")\n",
+    "print(f\"Distance tensor: {dist_tensor.shape}\")\n",
+    "\n",
+    "# Normalize coordinates and distances\n",
+    "coords_mean = coords_tensor.mean()\n",
+    "coords_std = coords_tensor.std()\n",
+    "coords_normalized = (coords_tensor - coords_mean) / coords_std\n",
+    "\n",
+    "dist_max = dist_tensor.max()\n",
+    "dist_normalized = dist_tensor / dist_max\n",
+    "\n",
+    "print(f\"✓ Data normalized and ready for training\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "1b4f3132",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-27T04:45:45.002546Z",
+     "iopub.status.busy": "2026-03-27T04:45:45.001346Z",
+     "iopub.status.idle": "2026-03-27T04:45:45.180582Z",
+     "shell.execute_reply": "2026-03-27T04:45:45.179209Z"
+    },
+    "papermill": {
+     "duration": 0.195765,
+     "end_time": "2026-03-27T04:45:45.183284+00:00",
+     "exception": false,
+     "start_time": "2026-03-27T04:45:44.987519+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "✓ VAE initialized with 15059100 parameters\n"
+     ]
+    }
+   ],
+   "source": [
+    "class ProteinVAE(nn.Module):\n",
+    "    def __init__(self, max_residues, latent_dim=64):\n",
+    "        super(ProteinVAE, self).__init__()\n",
+    "        self.max_residues = max_residues\n",
+    "        self.latent_dim = latent_dim\n",
+    "        \n",
+    "        # Flatten input: [batch, max_residues, 4, 3] -> [batch, max_residues*12]\n",
+    "        input_dim = max_residues * 4 * 3\n",
+    "        \n",
+    "        # Encoder: coordinates -> latent space\n",
+    "        self.encoder = nn.Sequential(\n",
+    "            nn.Linear(input_dim, 1024),\n",
+    "            nn.ReLU(),\n",
+    "            nn.Linear(1024, 512),\n",
+    "            nn.ReLU(),\n",
+    "            nn.Linear(512, 256),\n",
+    "            nn.ReLU()\n",
+    "        )\n",
+    "        \n",
+    "        # Latent space parameters\n",
+    "        self.mu_layer = nn.Linear(256, latent_dim)\n",
+    "        self.logvar_layer = nn.Linear(256, latent_dim)\n",
+    "        \n",
+    "        # Decoder: latent space -> coordinates\n",
+    "        self.decoder = nn.Sequential(\n",
+    "            nn.Linear(latent_dim, 256),\n",
+    "            nn.ReLU(),\n",
+    "            nn.Linear(256, 512),\n",
+    "            nn.ReLU(),\n",
+    "            nn.Linear(512, 1024),\n",
+    "            nn.ReLU(),\n",
+    "            nn.Linear(1024, input_dim)\n",
+    "        )\n",
+    "        \n",
+    "    def encode(self, x):\n",
+    "        # Flatten coordinates\n",
+    "        x_flat = x.view(x.size(0), -1)\n",
+    "        h = self.encoder(x_flat)\n",
+    "        mu = self.mu_layer(h)\n",
+    "        logvar = self.logvar_layer(h)\n",
+    "        return mu, logvar\n",
+    "    \n",
+    "    def reparameterize(self, mu, logvar):\n",
+    "        std = torch.exp(0.5 * logvar)\n",
+    "        eps = torch.randn_like(std)\n",
+    "        return mu + eps * std\n",
+    "    \n",
+    "    def decode(self, z):\n",
+    "        x_flat = self.decoder(z)\n",
+    "        x = x_flat.view(-1, self.max_residues, 4, 3)\n",
+    "        return x\n",
+    "    \n",
+    "    def forward(self, x):\n",
+    "        mu, logvar = self.encode(x)\n",
+    "        z = self.reparameterize(mu, logvar)\n",
+    "        x_recon = self.decode(z)\n",
+    "        return x_recon, mu, logvar\n",
+    "\n",
+    "# Initialize VAE\n",
+    "vae = ProteinVAE(max_residues=max_len, latent_dim=64).to(device)\n",
+    "print(f\"✓ VAE initialized with {sum(p.numel() for p in vae.parameters())} parameters\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 12,
+   "id": "e59ac169",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-27T04:45:45.210681Z",
+     "iopub.status.busy": "2026-03-27T04:45:45.209346Z",
+     "iopub.status.idle": "2026-03-27T04:45:45.225404Z",
+     "shell.execute_reply": "2026-03-27T04:45:45.224158Z"
+    },
+    "papermill": {
+     "duration": 0.032984,
+     "end_time": "2026-03-27T04:45:45.227759+00:00",
+     "exception": false,
+     "start_time": "2026-03-27T04:45:45.194775+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "✓ Generator initialized for 5 t+1 outputs\n"
+     ]
+    }
+   ],
+   "source": [
+    "class FoldingGenerator(nn.Module):\n",
+    "    def __init__(self, latent_dim=64, n_outputs=5):\n",
+    "        super(FoldingGenerator, self).__init__()\n",
+    "        self.latent_dim = latent_dim\n",
+    "        self.n_outputs = n_outputs\n",
+    "        \n",
+    "        # Shared layers for processing current state\n",
+    "        self.shared = nn.Sequential(\n",
+    "            nn.Linear(latent_dim, 128),\n",
+    "            nn.ReLU(),\n",
+    "            nn.Linear(128, 256),\n",
+    "            nn.ReLU(),\n",
+    "            nn.Linear(256, 128),\n",
+    "            nn.ReLU()\n",
+    "        )\n",
+    "        \n",
+    "        # Separate heads for each of the 5 outputs\n",
+    "        self.output_heads = nn.ModuleList([\n",
+    "            nn.Sequential(\n",
+    "                nn.Linear(128, 64),\n",
+    "                nn.ReLU(), \n",
+    "                nn.Linear(64, latent_dim)\n",
+    "            ) for _ in range(n_outputs)\n",
+    "        ])\n",
+    "        \n",
+    "    def forward(self, z_t):\n",
+    "        shared_features = self.shared(z_t)\n",
+    "        \n",
+    "        # Generate 5 different next states\n",
+    "        outputs = []\n",
+    "        for head in self.output_heads:\n",
+    "            z_t1 = head(shared_features)\n",
+    "            outputs.append(z_t1)\n",
+    "            \n",
+    "        return torch.stack(outputs, dim=1)  # [batch, 5, latent_dim]\n",
+    "\n",
+    "# Initialize Generator\n",
+    "generator = FoldingGenerator(latent_dim=64, n_outputs=5).to(device)\n",
+    "print(f\"✓ Generator initialized for 5 t+1 outputs\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "5c568432",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-27T04:45:45.255971Z",
+     "iopub.status.busy": "2026-03-27T04:45:45.254673Z",
+     "iopub.status.idle": "2026-03-27T04:45:45.266448Z",
+     "shell.execute_reply": "2026-03-27T04:45:45.265010Z"
+    },
+    "papermill": {
+     "duration": 0.029537,
+     "end_time": "2026-03-27T04:45:45.268693+00:00",
+     "exception": false,
+     "start_time": "2026-03-27T04:45:45.239156+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "✓ Discriminator initialized\n"
+     ]
+    }
+   ],
+   "source": [
+    "class TransitionDiscriminator(nn.Module):\n",
+    "    def __init__(self, latent_dim=64):\n",
+    "        super(TransitionDiscriminator, self).__init__()\n",
+    "        self.latent_dim = latent_dim\n",
+    "        \n",
+    "        # Input: two latent vectors [z_t, z_t1] concatenated\n",
+    "        self.discriminator = nn.Sequential(\n",
+    "            nn.Linear(latent_dim * 2, 256),\n",
+    "            nn.LeakyReLU(0.2),\n",
+    "            nn.Dropout(0.3),\n",
+    "            nn.Linear(256, 128),\n",
+    "            nn.LeakyReLU(0.2),\n",
+    "            nn.Dropout(0.3),\n",
+    "            nn.Linear(128, 64),\n",
+    "            nn.LeakyReLU(0.2),\n",
+    "            nn.Linear(64, 1)  # Real vs Fake transition\n",
+    "        )\n",
+    "    \n",
+    "    def forward(self, z_t, z_t1):\n",
+    "        # Concatenate current and next state\n",
+    "        combined = torch.cat([z_t, z_t1], dim=-1)\n",
+    "        return self.discriminator(combined)\n",
+    "\n",
+    "# Initialize Discriminator\n",
+    "discriminator = TransitionDiscriminator(latent_dim=64).to(device)\n",
+    "print(f\"✓ Discriminator initialized\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "236cd4cf",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-27T04:45:45.293582Z",
+     "iopub.status.busy": "2026-03-27T04:45:45.292402Z",
+     "iopub.status.idle": "2026-03-27T04:45:45.301137Z",
+     "shell.execute_reply": "2026-03-27T04:45:45.300005Z"
+    },
+    "papermill": {
+     "duration": 0.023301,
+     "end_time": "2026-03-27T04:45:45.303279+00:00",
+     "exception": false,
+     "start_time": "2026-03-27T04:45:45.279978+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "✓ Dataset created: 8 structures\n"
+     ]
+    }
+   ],
+   "source": [
+    "class ProteinDataset(Dataset):\n",
+    "    def __init__(self, coordinates, distances):\n",
+    "        self.coordinates = coordinates\n",
+    "        self.distances = distances\n",
+    "        \n",
+    "    def __len__(self):\n",
+    "        return len(self.coordinates)\n",
+    "    \n",
+    "    def __getitem__(self, idx):\n",
+    "        return self.coordinates[idx], self.distances[idx]\n",
+    "\n",
+    "# Create dataset and dataloader\n",
+    "dataset = ProteinDataset(coords_normalized, dist_normalized)\n",
+    "dataloader = DataLoader(dataset, batch_size=4, shuffle=True)  # Small batch for 8 structures\n",
+    "print(f\"✓ Dataset created: {len(dataset)} structures\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "ecfdd4c7",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-27T04:45:45.329073Z",
+     "iopub.status.busy": "2026-03-27T04:45:45.328542Z",
+     "iopub.status.idle": "2026-03-27T04:45:51.871223Z",
+     "shell.execute_reply": "2026-03-27T04:45:51.869756Z"
+    },
+    "papermill": {
+     "duration": 6.558647,
+     "end_time": "2026-03-27T04:45:51.873365+00:00",
+     "exception": false,
+     "start_time": "2026-03-27T04:45:45.314718+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "✓ Loss functions and optimizers ready\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Loss functions\n",
+    "def vae_loss(recon_coords, original_coords, mu, logvar, beta=1.0):\n",
+    "    # Reconstruction loss (MSE)\n",
+    "    recon_loss = F.mse_loss(recon_coords, original_coords, reduction='mean')\n",
+    "    \n",
+    "    # KL divergence\n",
+    "    kl_loss = -0.5 * torch.sum(1 + logvar - mu.pow(2) - logvar.exp(), dim=1).mean()\n",
+    "    \n",
+    "    return recon_loss + beta * kl_loss, recon_loss, kl_loss\n",
+    "\n",
+    "def wasserstein_loss(real_scores, fake_scores):\n",
+    "    return fake_scores.mean() - real_scores.mean()\n",
+    "\n",
+    "def diversity_loss(generated_outputs):\n",
+    "    \"\"\"Encourage diversity among the 5 outputs\"\"\"\n",
+    "    batch_size, n_outputs, latent_dim = generated_outputs.shape\n",
+    "    \n",
+    "    diversity = 0\n",
+    "    for i in range(n_outputs):\n",
+    "        for j in range(i+1, n_outputs):\n",
+    "            # Penalize similar outputs\n",
+    "            similarity = F.cosine_similarity(\n",
+    "                generated_outputs[:, i], \n",
+    "                generated_outputs[:, j], \n",
+    "                dim=1\n",
+    "            ).mean()\n",
+    "            diversity -= similarity\n",
+    "    \n",
+    "    return diversity / (n_outputs * (n_outputs - 1) / 2)\n",
+    "\n",
+    "# Optimizers\n",
+    "vae_optimizer = torch.optim.Adam(vae.parameters(), lr=0.001)\n",
+    "gen_optimizer = torch.optim.Adam(generator.parameters(), lr=0.0002, betas=(0.5, 0.999))\n",
+    "disc_optimizer = torch.optim.Adam(discriminator.parameters(), lr=0.0002, betas=(0.5, 0.999))\n",
+    "\n",
+    "print(\"✓ Loss functions and optimizers ready\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "c1b3be26",
+   "metadata": {
+    "execution": {
+     "iopub.execute_input": "2026-03-27T04:45:51.898502Z",
+     "iopub.status.busy": "2026-03-27T04:45:51.897828Z",
+     "iopub.status.idle": "2026-03-27T04:46:22.963719Z",
+     "shell.execute_reply": "2026-03-27T04:46:22.962636Z"
+    },
+    "papermill": {
+     "duration": 31.081787,
+     "end_time": "2026-03-27T04:46:22.966169+00:00",
+     "exception": false,
+     "start_time": "2026-03-27T04:45:51.884382+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "✓ Fixed training function ready\n",
+      "Starting training...\n",
+      "Epoch   0: VAE=2.9822 Gen=0.0189 Disc=0.0024\n",
+      "Epoch  10: VAE=1.0156 Gen=0.0557 Disc=-0.0052\n",
+      "Epoch  20: VAE=0.9700 Gen=0.0985 Disc=-0.0306\n",
+      "Epoch  30: VAE=0.8980 Gen=-0.0492 Disc=0.0084\n",
+      "Epoch  40: VAE=0.9717 Gen=0.1801 Disc=-0.0150\n",
+      "Epoch  50: VAE=0.9675 Gen=-0.0010 Disc=0.0099\n",
+      "Epoch  60: VAE=0.9376 Gen=-0.0971 Disc=0.0219\n",
+      "Epoch  70: VAE=0.9047 Gen=-0.0038 Disc=-0.0108\n",
+      "Epoch  80: VAE=0.9659 Gen=0.0164 Disc=-0.0450\n",
+      "Epoch  90: VAE=0.9713 Gen=-0.0722 Disc=0.0120\n"
+     ]
+    }
+   ],
+   "source": [
+    "def train_hybrid_model(num_epochs=50):\n",
+    "    vae.train()\n",
+    "    generator.train()\n",
+    "    discriminator.train()\n",
+    "    \n",
+    "    for epoch in range(num_epochs):\n",
+    "        epoch_vae_loss = 0\n",
+    "        epoch_gen_loss = 0\n",
+    "        epoch_disc_loss = 0\n",
+    "        \n",
+    "        for batch_idx, (coords_batch, dist_batch) in enumerate(dataloader):\n",
+    "            batch_size = coords_batch.size(0)\n",
+    "            \n",
+    "            # =====================================\n",
+    "            # Phase 1: Train VAE (reconstruction)\n",
+    "            # =====================================\n",
+    "            vae_optimizer.zero_grad()\n",
+    "            \n",
+    "            recon_coords, mu, logvar = vae(coords_batch)\n",
+    "            v_loss, recon_loss, kl_loss = vae_loss(recon_coords, coords_batch, mu, logvar)\n",
+    "            \n",
+    "            v_loss.backward()\n",
+    "            vae_optimizer.step()\n",
+    "            epoch_vae_loss += v_loss.item()\n",
+    "            \n",
+    "            # =====================================\n",
+    "            # Phase 2: Train Discriminator\n",
+    "            # =====================================\n",
+    "            disc_optimizer.zero_grad()\n",
+    "            \n",
+    "            # Get latent representations\n",
+    "            with torch.no_grad():\n",
+    "                mu_real, _ = vae.encode(coords_batch)\n",
+    "            \n",
+    "            # Generate fake transitions\n",
+    "            fake_transitions = generator(mu_real)  # [batch, 5, latent_dim]\n",
+    "            \n",
+    "            # Sample one of the 5 outputs for discriminator training\n",
+    "            random_idx = torch.randint(0, 5, (batch_size,))\n",
+    "            fake_z_t1 = fake_transitions[torch.arange(batch_size), random_idx]  # [batch, latent_dim]\n",
+    "            \n",
+    "            # Real transitions (use small noise as proxy for real folding steps)\n",
+    "            noise = torch.randn_like(mu_real) * 0.1\n",
+    "            real_z_t1 = mu_real + noise\n",
+    "            \n",
+    "            # Discriminator scores\n",
+    "            real_score = discriminator(mu_real, real_z_t1)\n",
+    "            fake_score = discriminator(mu_real, fake_z_t1.detach())\n",
+    "            \n",
+    "            # Wasserstein loss\n",
+    "            d_loss = wasserstein_loss(real_score, fake_score)\n",
+    "            d_loss.backward()\n",
+    "            disc_optimizer.step()\n",
+    "            epoch_disc_loss += d_loss.item()\n",
+    "            \n",
+    "            # =====================================\n",
+    "            # Phase 3: Train Generator\n",
+    "            # =====================================\n",
+    "            gen_optimizer.zero_grad()\n",
+    "            \n",
+    "            # Generate all 5 transitions\n",
+    "            fake_transitions = generator(mu_real)\n",
+    "            \n",
+    "            # Generator loss (fool discriminator + diversity)\n",
+    "            g_loss = 0\n",
+    "            for i in range(5):\n",
+    "                fake_score = discriminator(mu_real, fake_transitions[:, i])\n",
+    "                g_loss -= fake_score.mean()  # Maximize discriminator score\n",
+    "            \n",
+    "            # Add diversity loss\n",
+    "            div_loss = diversity_loss(fake_transitions)\n",
+    "            total_g_loss = g_loss + 0.1 * div_loss\n",
+    "            \n",
+    "            total_g_loss.backward()\n",
+    "            gen_optimizer.step()\n",
+    "            epoch_gen_loss += total_g_loss.item()\n",
+    "        \n",
+    "        # Print progress\n",
+    "        if epoch % 10 == 0:\n",
+    "            print(f\"Epoch {epoch:3d}: VAE={epoch_vae_loss/len(dataloader):.4f} \"\n",
+    "                  f\"Gen={epoch_gen_loss/len(dataloader):.4f} \"\n",
+    "                  f\"Disc={epoch_disc_loss/len(dataloader):.4f}\")\n",
+    "\n",
+    "print(\"✓ Fixed training function ready\")\n",
+    "print(\"Starting training...\")\n",
+    "train_hybrid_model(num_epochs=100)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "65318b4b",
+   "metadata": {
+    "papermill": {
+     "duration": 0.011576,
+     "end_time": "2026-03-27T04:46:22.989627+00:00",
+     "exception": false,
+     "start_time": "2026-03-27T04:46:22.978051+00:00",
+     "status": "completed"
+    },
+    "tags": []
+   },
+   "outputs": [],
+   "source": []
   }
  ],
  "metadata": {
@@ -641,14 +1321,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 35.146542,
-   "end_time": "2026-03-25T07:22:58.593428+00:00",
+   "duration": 81.532639,
+   "end_time": "2026-03-27T04:46:25.435525+00:00",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2026-03-25T07:22:23.446886+00:00",
+   "start_time": "2026-03-27T04:45:03.902886+00:00",
    "version": "2.7.0"
   }
  },
